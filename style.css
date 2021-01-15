@@ -1,0 +1,112 @@
+body{
+    background-color: darkviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('stars.gif');
+}
+
+h1 {
+    width: 256px;
+    border-bottom: violet;
+    border-top: violet;border-bottom-style: solid;
+    border-top-style: solid;
+    border-left: violet;
+    border-right: violet;
+    border-left-style: double;
+    border-right-style: double;
+    position: sticky;
+    top: 5px;
+    position: -webkit-sticky;
+    z-index: 1;
+    background-color: thistle;
+    color: darkviolet;
+}
+#about {
+    width:900px;
+    background: white;
+    left: 150px;
+    border-style: double;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 26px;
+    text-align: center;
+    text-shadow: 1px 1px 2px darkviolet;
+    right: 15px;
+    float:right;
+}
+
+#rom {
+    text-align: center;
+    border-width: 12px;
+    border:black;
+    border-style: solid;
+    width: 480px;
+    border-radius: 30px;
+    background-color: white;
+
+
+}
+
+#fullimage{
+    border-radius: 26px;
+
+}
+
+#totheleft{
+float:left;
+
+}
+
+
+#walkthrough p {
+    color:palevioletred;
+    font-size: 36px;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    left: 275px;
+    top: 7px;
+    bottom: 15px;
+    right: 100px;
+
+}
+#walkthrough a {
+    color:palevioletred;
+    font-size: 36px;
+    z-index: 1;
+   text-decoration-color: purple;
+   
+}
+#walkthrough {
+    z-index: -2;
+    position:absolute;
+    display:none;
+
+}
+
+#catplane {
+    position:sticky;
+    position: -webkit-sticky;
+    bottom: 5px;
+    font-size: 24px;
+    text-align: center;
+}
+
+#bouncehouse {
+    position: static;
+    right:0%;
+    border-radius: 5px;
+    border-color: coral;
+    border-style: dotted;
+}
+
+#tunes {
+    color: blueviolet;
+    border-radius: 25px;
+
+}
+
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size:18px;
+}
