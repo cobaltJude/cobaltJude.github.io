@@ -1,3 +1,3 @@
-$.getJson("Standard.json")
-var mydata = JSON.parse(data);
-window.alert(mydata[0].baseSetSize);
+var obj = JSON.parse("Standard.json");
+
+document.write(obj);
