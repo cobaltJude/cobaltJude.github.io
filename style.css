@@ -1,28 +1,29 @@
 body{
+    background-image:url('fuckyou.gif');
     background-color: slateblue;
     font-family: Arial, Helvetica, sans-serif;
+} 
+#odetomrbullet{
+    color:white;
+    font-family: fantasy;
+    
+
+}
+img {
+    float:none;
+    height: 60%;
+    width: 50%;
 }
 
-.intro {
-    border-bottom: black;
-    border-top: black;
-    border-bottom-style: double;
-    border-top-style: double;
-    border-left:black;
-    border-right:black;
-    border-left-style: double;
-    border-right-style: double;
-    background-color: white;
-    color: darkblue;
-    text-align:left;
-}
-
-h1.intro {
-     display:inline-block;
-     border: none;
-}
-
-p.intro {
+#bullet {
     display:inline-block;
-    border: none;
+    margin-top:50px;
+    height:15%;
+    width:15%;
+    z-index: 1;
+}
+
+#gun{
+    float:right;
+    top:300px;
 }
