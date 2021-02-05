@@ -1,7 +1,12 @@
 
 $(document).ready(function(){
     $("#bullet").hide();
-    $("#gun").click(function(){
-    $("#bullet").toggle();
+    $("#explosion").hide();
+        $("#gun").click(function(){
+            $("#bullet").show();
+            $("#bullet").animate({right: '600px'});
+          }); 
+          $("#gun").click(function(){
+              $("#explosion").show();
   });
 });

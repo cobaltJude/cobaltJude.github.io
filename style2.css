@@ -1,14 +1,20 @@
 body{
-    background-image:url('fuckyou.gif');
-    background-color: slateblue;
+    background-image:url('bubbles.gif');
+    background-color:black;
     font-family: Arial, Helvetica, sans-serif;
 } 
 #odetomrbullet{
-    color:white;
-    font-family: fantasy;
+    color:chartreuse;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 55px;
     
 
 }
+
+li {
+    z-index: -2;
+}
+
 img {
     float:none;
     height: 60%;
@@ -16,14 +22,36 @@ img {
 }
 
 #bullet {
-    display:inline-block;
-    margin-top:50px;
+    position:relative;
+    top:310px;
     height:15%;
     width:15%;
-    z-index: 1;
+    z-index: 2;
 }
 
 #gun{
+    position:relative;
     float:right;
-    top:300px;
+    z-index: 3;
+}
+
+#explosion{
+    height:30%;
+    width: 30%;
+    position:relative;
+    top:100px;
+    right:0px;
+    z-index: 1;
+}
+
+.odd{
+    font-size: 50px;
+    color:yellow;
+    float:right;
+
+}
+.even{
+    font-size: 72px;
+    color:red;
+    float:left;
 }
