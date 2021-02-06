@@ -1,0 +1,36 @@
+body{
+    background-image:url('bubbles.gif');
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+} 
+
+#shark{
+    position:relative;
+    left:500px; 
+}
+
+#stars{
+    position:relative;
+    z-index:1;
+    left:850px;
+    bottom:650px;
+}
+
+#textbubble{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    z-index:2;
+    position:relative;
+    left:0px;
+    top:750px;
+}
+
+#sharktalk {
+    color:blue;
+    font-size:36px;
+    position:relative;
+    top:450px;
+    left:100px;
+    z-index:3;
+}
