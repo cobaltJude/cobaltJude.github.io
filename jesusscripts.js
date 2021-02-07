@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     $('#jesus').click(function(){ 
         $('#jesus').fadeOut(1000);
-        $('h1').after("<a href='hotsingles'>click me ;)</a>");
+        $('h1').after("<a href='hotsingles.html'>click me ;)</a>");
     });
 
     function loop() {
