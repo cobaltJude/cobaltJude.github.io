@@ -1,0 +1,55 @@
+img {
+    width: 99%;
+    height:99%;
+    position:relative;
+    bottom:0px;
+    z-index:1;
+    border-style:solid;
+    border-color:red;
+    border-width:10px;
+}
+audio {
+    position:relative;
+    bottom:0px;
+    z-index:0;
+}
+body{
+    background-color:black;
+}
+h1{
+    position:relative;
+    bottom:1000px;
+    font-style:italic;
+    color:yellow;
+    text-align:center;
+}
+.faceclick{
+    
+}
+
+#julianclick {
+    width:275px;
+    height:350px;
+    position:relative;
+    bottom:950px;
+    left:190px;
+    z-index:2;
+}
+
+#bubblesclick{
+    width:275px;
+    height:305px;
+    position:relative;
+    bottom:1250px;
+    left:575px;
+    z-index:2;
+}
+
+#rickyclick {
+    width:290px;
+    height:360px;
+    position:relative;
+    bottom:1525px;
+    left:920px;
+    z-index:2;
+}
