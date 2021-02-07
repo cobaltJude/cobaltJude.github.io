@@ -3,6 +3,10 @@
     height:auto;
     position:relative;
     left:75%;
+    border-style:ridge;
+    border-color:red;
+    border-width:7px;
+    border-radius:7px;
 }
 
 body{
