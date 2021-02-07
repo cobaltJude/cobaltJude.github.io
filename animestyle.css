@@ -1,4 +1,6 @@
 body{
+    background-image:url('sparklegif.gif');
+    background-repeat: repeat-x;
     background-color:purple;
     font-family:Helvetica, sans-serif;
     color:white;
@@ -33,4 +35,8 @@ body{
     border-width:2px;
     text-align:center;
     z-index:1;
+}
+
+audio {
+    float:right;
 }
