@@ -1,0 +1,26 @@
+body{
+    font-family:fantasy;
+    background-color:red;
+}
+#michaelfights{
+    background-color:tan;
+    width:500px;
+    border-color:gold;
+    border-style:ridge;
+    border-width:6px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    padding:5px;
+    position:absolute;
+    top:400px;
+    left:30%;
+    z-index:0;
+}
+
+#angels {
+    width:1000px;
+    margin:auto;
+    opacity: 40%;
+    z-index: 2;
+}
