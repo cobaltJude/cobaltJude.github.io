@@ -1,0 +1,36 @@
+body{
+    background-color:purple;
+    font-family:Helvetica, sans-serif;
+    color:white;
+}
+
+.portrait {
+    float:left;
+    width:150px;
+    height:auto;
+}
+
+#fuckedup {
+    background-color:blue;
+    position:relative;
+    left:70%;
+    width:250px;
+    border-style:dashed;
+    border-width:10px;
+    font-size:100px;
+    color:violet;
+}
+
+#sanae{
+    top:150px;
+    position: relative;
+    width:95%;
+    left:0px;
+    color:white;
+    background-color: teal;
+    border-style:dotted;
+    border-radius:7px;
+    border-width:2px;
+    text-align:center;
+    z-index:1;
+}
