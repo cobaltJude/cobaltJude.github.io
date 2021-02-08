@@ -1,11 +1,9 @@
 $(document).ready(function(){
+    $('#yosuke').mouseover(function(){
+        $(this).addClass('flipped');
+    }).mouseleave(function(){
+        $(this).removeClass('flipped');
+    });
 
-    function loop() {
-        $("img").css("transform", "rotateY(180deg)",);
-        $("img").css("transform", "rotateY(1deg)",loop);
-    }
-    
-    loop();
-    
 });
 
