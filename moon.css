@@ -1,0 +1,30 @@
+body{
+    background-color:#003366;
+    color:white;
+    font-size:36px; 
+
+}
+#moon {
+float:right;
+}
+#one {
+    position:relative;
+    bottom:300px;
+    left:600px;
+}
+
+#talk{
+    position:relative;
+    z-index:2;
+    top:0px;
+    transform: rotatey(180deg);
+}
+
+#talktext {
+    font-size:48px;
+    position:relative;
+    left:250px;
+    bottom:300px;
+    z-index:3;
+    color:black;
+}
