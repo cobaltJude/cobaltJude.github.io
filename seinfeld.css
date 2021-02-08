@@ -1,0 +1,16 @@
+body{
+    background-image:url('arcadebg.jpg');
+    color:white;
+}
+
+#jerry {
+    position:relative;
+    left:50px;
+
+}
+
+a {
+    font-size:40px;
+    color:white;
+    text-decoration: none;
+}
